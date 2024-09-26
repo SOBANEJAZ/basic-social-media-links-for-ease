@@ -1,15 +1,11 @@
 import streamlit as st
 
 st.title("Social Media Checker")
-st.title("Daily")
 st.write("Mail 1: -https://mail.google.com/mail/u/0/#inbox")
 st.write("Mail 2: -https://mail.google.com/mail/u/1/#inbox")
 st.write("Goodreads -https://goodreads.com/")
 st.write("Github -https://github.com/")
 st.write("Upwork: -https://www.upwork.com")
-st.write('2 Vidoes from "Research" Bookmark Folder')
 st.write("Linkedin -https://linkedin.com/")
-st.write('Coding from "Code" Bookmark Folder')
-st.title("Wednesday and Sunday evening after gym")
 st.write("YouTube -https://www.youtube.com/feed/subscriptions")
-# st.write("Instagram -https://instagram.com/")
+st.write('Coding from "Code" Bookmark Folder')
