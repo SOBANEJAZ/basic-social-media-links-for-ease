@@ -22,7 +22,7 @@ links = {
         "Perplexity": "https://www.perplexity.ai/",
         "Gemini": "https://gemini.google.com/app",
     },
-    "Liesure + Social Media": {
+    "Leisure + Social Media": {
         "Instagram": "https://www.instagram.com/",
         "Goodreads": "https://goodreads.com/",
         "Robin Waldun": "https://www.youtube.com/@RCWaldun/videos",
