@@ -1,6 +1,6 @@
 import streamlit as st
 
-st.title("Social Media & AI Tools Checker")
+st.title("Websites Links")
 
 # Define all links with their labels, organized by category
 links = {
