@@ -9,25 +9,26 @@ links = {
         "Personal Email": "https://mail.google.com/mail/u/0/#inbox",
         "Work Email": "https://mail.google.com/mail/u/1/#inbox",
         "Github": "https://github.com/",
+        "LinkedIn": "https://linkedin.com/",
         "Upwork": "https://www.upwork.com/",
-        "LinkedIn": "https://linkedin.com/"
     },
+    "News": {
+        "Reuters": "https://www.reuters.com/",
+        "Verge": "https://www.theverge.com/"},
     "AI Tools": {
         "ChatGPT": "https://chatgpt.com/",
         "Claude": "https://claude.ai/",
         "Groq": "https://groq.com/",
         "Perplexity": "https://www.perplexity.ai/",
-        "Gemini": "https://gemini.google.com/app"
+        "Gemini": "https://gemini.google.com/app",
     },
-    "News & Content": {
-        "Reuters": "https://www.reuters.com/",
-        "Verge": "https://www.theverge.com/",
+    "Liesure + Social Media": {
+        "Instagram": "https://www.instagram.com/",
         "Goodreads": "https://goodreads.com/",
         "Robin Waldun": "https://www.youtube.com/@RCWaldun/videos",
-        "YouTube": "https://www.youtube.com/feed/subscriptions"
-    }
+        "YouTube": "https://www.youtube.com/feed/subscriptions",
+    },
 }
-
 # Custom CSS for better button styling
 st.markdown("""
     <style>
