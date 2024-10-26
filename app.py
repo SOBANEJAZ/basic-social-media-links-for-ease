@@ -3,18 +3,18 @@ import webbrowser
 
 # Define all links with their labels, organized by category
 links = {
-    "Email & Work": {
+    "Always On": {
         "Personal Email": "https://mail.google.com/mail/u/0/#inbox",
         "Work Email": "https://mail.google.com/mail/u/1/#inbox",
         "Github": "https://github.com/",
-        "LinkedIn": "https://linkedin.com/",
         "Upwork": "https://www.upwork.com/",
     },
-    "News": {
+    "Morning Check": {
+        "LinkedIn": "https://linkedin.com/",
         "Reuters": "https://www.reuters.com/",
-        "Verge": "https://www.theverge.com/"},
+        "Verge": "https://www.theverge.com/",
     },
-    "Leisure + Social Media": {
+    "Evening Check": {
         "Goodreads": "https://goodreads.com/",
         "YouTube": "https://www.youtube.com/feed/subscriptions",
     },
