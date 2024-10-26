@@ -1,8 +1,6 @@
 import streamlit as st
 import webbrowser
 
-st.title("Website Link Provider")
-
 # Define all links with their labels, organized by category
 links = {
     "Email & Work": {
@@ -15,17 +13,9 @@ links = {
     "News": {
         "Reuters": "https://www.reuters.com/",
         "Verge": "https://www.theverge.com/"},
-    "AI Tools": {
-        "ChatGPT": "https://chatgpt.com/",
-        "Claude": "https://claude.ai/",
-        "Groq": "https://groq.com/",
-        "Perplexity": "https://www.perplexity.ai/",
-        "Gemini": "https://gemini.google.com/app",
     },
     "Leisure + Social Media": {
-        "Instagram": "https://www.instagram.com/",
         "Goodreads": "https://goodreads.com/",
-        "Robin Waldun": "https://www.youtube.com/@RCWaldun/videos",
         "YouTube": "https://www.youtube.com/feed/subscriptions",
     },
 }
