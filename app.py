@@ -9,15 +9,13 @@ links = {
         "Github": "https://github.com/",
         "Upwork": "https://www.upwork.com/",
     },
-    "Morning Check": {
+    "Afternoon Check-List": {
         "LinkedIn": "https://linkedin.com/",
         "Reuters": "https://www.reuters.com/",
         "Verge": "https://www.theverge.com/",
-    },
-    "Evening Check": {
         "Goodreads": "https://goodreads.com/",
         "YouTube": "https://www.youtube.com/feed/subscriptions",
-    },
+    }
 }
 # Custom CSS for better button styling
 st.markdown("""
