@@ -15,6 +15,7 @@ links = {
         "Verge": "https://www.theverge.com/",
         "Goodreads": "https://goodreads.com/",
         "YouTube": "https://www.youtube.com/feed/subscriptions",
+        "Instagram":"https://www.instagram.com",
     }
 }
 # Custom CSS for better button styling
