@@ -16,6 +16,7 @@ links = {
         "Goodreads": "https://goodreads.com/",
         "YouTube": "https://www.youtube.com/feed/subscriptions",
         "Instagram":"https://www.instagram.com",
+        "Twitter":"https://www.twitter.com",
     }
 }
 # Custom CSS for better button styling
