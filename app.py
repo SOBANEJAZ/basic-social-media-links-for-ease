@@ -9,14 +9,18 @@ links = {
         "Github": "https://github.com/",
         "Upwork": "https://www.upwork.com/",
     },
-    "Afternoon Check-List": {
-        "LinkedIn": "https://linkedin.com/",
+    "News":{
         "Reuters": "https://www.reuters.com/",
+        "Al Jazeera": "https://www.aljazeera.com/",
+        "Al Jazeera Pakistan": "https://www.aljazeera.com/where/pakistan/",
+        "DAWN": "https://www.dawn.com/",
         "Verge": "https://www.theverge.com/",
+    },
+    "Afternoon Check-List": {
+        "Instagram":"https://www.instagram.com",
+        "LinkedIn": "https://linkedin.com/",
         "Goodreads": "https://goodreads.com/",
         "YouTube": "https://www.youtube.com/feed/subscriptions",
-        "Instagram":"https://www.instagram.com",
-        "Twitter":"https://www.twitter.com",
     }
 }
 # Custom CSS for better button styling
