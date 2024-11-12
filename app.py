@@ -8,6 +8,7 @@ links = {
         "Work Email": "https://mail.google.com/mail/u/1/#inbox",
         "Github": "https://github.com/",
         "Upwork": "https://www.upwork.com/",
+        "Fiverr": "https://www.fiverr.com/seller_dashboard",
     },
     "News":{
         "Reuters": "https://www.reuters.com/",
