@@ -6,21 +6,27 @@ links = {
     "Always On": {
         "Personal Email": "https://mail.google.com/mail/u/0/#inbox",
         "Work Email": "https://mail.google.com/mail/u/1/#inbox",
+        "LinkedIn": "https://linkedin.com/",
         "Github": "https://github.com/",
         "Upwork": "https://www.upwork.com/",
         "Fiverr": "https://www.fiverr.com/seller_dashboard",
     },
-    "News":{
+    "World News":{
         "Reuters": "https://www.reuters.com/",
         "Al Jazeera": "https://www.aljazeera.com/",
         "Al Jazeera Pakistan": "https://www.aljazeera.com/where/pakistan/",
-        "DAWN": "https://www.dawn.com/",
-        "Verge": "https://www.theverge.com/",
     },
+    "Tech News": {
+        "Verge": "https://www.theverge.com/",
+        "decoder" : "https://the-decoder.com/",
+        "TechCrunch" : "https://techcrunch.com/",
+        "engadget" : "https://www.engadget.com/",
+        "CNET" : "https://www.cnet.com/",
+    },  
     "Afternoon Check-List": {
-        "Instagram":"https://www.instagram.com",
-        "LinkedIn": "https://linkedin.com/",
         "Goodreads": "https://goodreads.com/",
+        "Instagram":"https://www.instagram.com",
+        "X" : "https://x.com/",
         "YouTube": "https://www.youtube.com/feed/subscriptions",
     }
 }
