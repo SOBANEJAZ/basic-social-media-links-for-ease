@@ -11,19 +11,13 @@ links = {
         "Upwork": "https://www.upwork.com/",
         "Fiverr": "https://www.fiverr.com/seller_dashboard",
     },
-    "World News":{
+    "World & Tech News":{
         "Reuters": "https://www.reuters.com/",
         "Al Jazeera": "https://www.aljazeera.com/",
-        "Al Jazeera Pakistan": "https://www.aljazeera.com/where/pakistan/",
-    },
-    "Tech News": {
         "Verge": "https://www.theverge.com/",
         "decoder" : "https://the-decoder.com/",
-        "TechCrunch" : "https://techcrunch.com/",
-        "engadget" : "https://www.engadget.com/",
-        "CNET" : "https://www.cnet.com/",
-    },  
-    "Afternoon Check-List": {
+    },
+    "Social Media Check-List": {
         "Goodreads": "https://goodreads.com/",
         "Instagram":"https://www.instagram.com",
         "X" : "https://x.com/",
