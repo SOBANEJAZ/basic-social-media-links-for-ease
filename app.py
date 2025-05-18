@@ -6,26 +6,30 @@ links = {
     "Always On": {
         "Personal Email": "https://mail.google.com/mail/u/0/#inbox",
         "Work Email": "https://mail.google.com/mail/u/1/#inbox",
-        "LinkedIn": "https://linkedin.com/",
-        "Github": "https://github.com/",
         "Upwork": "https://www.upwork.com/",
-        "Fiverr": "https://www.fiverr.com/seller_dashboard",
+        "Github": "https://github.com/",
+        "Tasks": "https://tasks.google.com/tasks/",
     },
-    "World & Tech News":{
-        "Reuters": "https://www.reuters.com/",
+    "News": {
+        "DAWN": "https://www.dawn.com/",
         "Al Jazeera": "https://www.aljazeera.com/",
-        "Verge": "https://www.theverge.com/",
-        "decoder" : "https://the-decoder.com/",
+        "RUN247": "https://run247.com/",
+        "iRunFar": "https://www.irunfar.com/",
+        "TechCrunch": "https://techcrunch.com/",
+        "Hacker News": "https://news.ycombinator.com/",
     },
     "Social Media Check-List": {
+        "Whatsapp": "https://web.whatsapp.com/",
+        "LinkedIn": "https://linkedin.com/",
         "Goodreads": "https://goodreads.com/",
-        "Instagram":"https://www.instagram.com",
-        "X" : "https://x.com/",
+        "Instagram": "https://www.instagram.com",
+        "Twitter": "https://x.com/",
         "YouTube": "https://www.youtube.com/feed/subscriptions",
-    }
+    },
 }
 # Custom CSS for better button styling
-st.markdown("""
+st.markdown(
+    """
     <style>
     div.stButton > button {
         width: 100%;
@@ -47,22 +51,25 @@ st.markdown("""
         color: #ff4b4b;
     }
     </style>
-""", unsafe_allow_html=True)
+""",
+    unsafe_allow_html=True,
+)
 
 # Process each category
 for category, category_links in links.items():
     # Add category header
     st.markdown(f"<p class='category-header'>{category}</p>", unsafe_allow_html=True)
-    
+
     # Create three columns for this category
     col1, col2, col3 = st.columns(3)
     columns = [col1, col2, col3]
-    
+
     # Distribute buttons across three columns within this category
     for index, (label, url) in enumerate(category_links.items()):
         with columns[index % 3]:
             # Create a link that looks like a button using markdown
-            st.markdown(f'''
+            st.markdown(
+                f"""
                 <a href="{url}" target="_blank">
                     <button style="
                         width: 100%;
@@ -80,12 +87,17 @@ for category, category_links in links.items():
                     onmouseout="this.style.backgroundColor='#262730'"
                     >{label}</button>
                 </a>
-            ''', unsafe_allow_html=True)
+            """,
+                unsafe_allow_html=True,
+            )
 
 # Add a small footer with instructions
-st.markdown("""
+st.markdown(
+    """
 ---
 <div style='text-align: center; color: #666;'>
 All links will open in a new tab automatically
 </div>
-""", unsafe_allow_html=True)
+""",
+    unsafe_allow_html=True,
+)
